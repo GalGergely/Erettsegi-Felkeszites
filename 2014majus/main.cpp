@@ -20,7 +20,7 @@ int main()
         be >> ip[db];
         db++;
     }
-    cout << "1. feladat:" << "Beolvasás kész" << endl;
+    cout << "1. feladat:" << "BeolvasÃ¡s kÃ©sz" << endl;
     cout << "2. feladat: " << endl;
     cout << db << endl;
     cout << "3. feladat: " << endl;
@@ -36,7 +36,7 @@ int main()
             //cout << min<< endl;
         }
     }
-    cout  << "A legalacsonyabb tárolt IP - cím: " << min << endl;
+    cout  << "A legalacsonyabb tÃ¡rolt IP - cÃ­m: " << min << endl;
     cout << "4. feladat:" << endl;
     int doku = 0;
     int global = 0;
@@ -59,9 +59,9 @@ int main()
         }
         
     }
-    cout << "Dokumentációs cím : " << doku << endl;
-    cout << "Globális egyedi cím : " << global << endl;
-    cout << "Helyi egyedi cím : " << helyi << endl;
+    cout << "DokumentÃ¡ciÃ³s cÃ­m : " << doku << endl;
+    cout << "GlobÃ¡lis egyedi cÃ­m : " << global << endl;
+    cout << "Helyi egyedi cÃ­m : " << helyi << endl;
     cout << "6. feladat:" << endl;
     cout << "7. feladat:" << endl;
     return 0;
