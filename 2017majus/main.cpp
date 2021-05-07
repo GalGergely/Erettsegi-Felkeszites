@@ -28,20 +28,20 @@ int main()
     {
         cout << t[i].versenyzoKodja << " " << t[i].valasz << endl;
     }*/
-    cout << "1. feladat: Az adatok beolvasása" << endl;
-    cout << "2. feladat: A vetélkedõn " << db << " versenyzõ indult."<<endl;
-    cout << "3. feladat: A versenyzõ azonosítója = ";
+    cout << "1. feladat: Az adatok beolvasÃ¡sa" << endl;
+    cout << "2. feladat: A vetÃ©lkedÃµn " << db << " versenyzÃµ indult."<<endl;
+    cout << "3. feladat: A versenyzÃµ azonosÃ­tÃ³ja = ";
     string azon;
     cin >> azon;
     for (int i = 0; i < db; i++)
     {
         if (azon==t[i].versenyzoKodja)
         {
-            cout << t[i].valasz << "        " << "(a versenyzõ válasza)";
+            cout << t[i].valasz << "        " << "(a versenyzÃµ vÃ¡lasza)";
         }
     }
     cout << "4. feladat: " << endl;
-    cout << megoldas<< "        (a helyes megoldás)"<<endl;
+    cout << megoldas<< "        (a helyes megoldÃ¡s)"<<endl;
 
     for (int i = 0; i < db; i++)
     {
@@ -63,8 +63,8 @@ int main()
         }
         
     }
-    cout << "       (a versenyzõ helyes válaszai)"<<endl;
-    cout << "5. feladat: A feladat sorszáma = ";
+    cout << "       (a versenyzÃµ helyes vÃ¡laszai)"<<endl;
+    cout << "5. feladat: A feladat sorszÃ¡ma = ";
     int sorszam;
     cin >> sorszam;
     double arany = 0;
@@ -80,7 +80,7 @@ int main()
     }
     arany = (double)fo / (double)db*100;
     //cout << fo << "  " << db; 
-    cout << "A feladatra " << fo << " fõ, a versenyzõk " <<setprecision(4)<< arany <<"%"<< "-a adott helyes választ."<<endl;
+    cout << "A feladatra " << fo << " fÃµ, a versenyzÃµk " <<setprecision(4)<< arany <<"%"<< "-a adott helyes vÃ¡laszt."<<endl;
     ofstream ki;
     ki.open("pontok.txt");
     int cnt1 = 0;
@@ -114,7 +114,7 @@ int main()
         t[i].pontok = cnt1;
         cnt1 = 0;
     }
-    cout << "6. feladat: A versenyzõk pontszámának meghatározása"<<endl;
+    cout << "6. feladat: A versenyzÃµk pontszÃ¡mÃ¡nak meghatÃ¡rozÃ¡sa"<<endl;
     cout << "7. feladat: A verseny legjobbjai:"<<endl;
     int max1 = 0;
     int max2 = 0;
@@ -144,21 +144,21 @@ int main()
     {
         if (t[i].pontok==max1)
         {
-            cout << "1. díj " << max1 << "(pont): " << t[i].versenyzoKodja << endl;
+            cout << "1. dÃ­j " << max1 << "(pont): " << t[i].versenyzoKodja << endl;
         }
     }
     for (int i = 0; i < db; i++)
     {
         if (t[i].pontok == max2)
         {
-            cout << "2. díj " << max2 << "(pont): " << t[i].versenyzoKodja << endl;
+            cout << "2. dÃ­j " << max2 << "(pont): " << t[i].versenyzoKodja << endl;
         }
     }
     for (int i = 0; i < db; i++)
     {
         if (t[i].pontok == max3)
         {
-            cout << "3. díj " << max3 << "(pont): " << t[i].versenyzoKodja << endl;
+            cout << "3. dÃ­j " << max3 << "(pont): " << t[i].versenyzoKodja << endl;
         }
     }
         
