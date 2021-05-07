@@ -33,7 +33,7 @@ int main()
     {
         if (a[i].ki_be=="be")
         {
-            cout << "Az elsõ belépõ : " << a[i].szemAz << endl;
+            cout << "Az elsÃµ belÃ©pÃµ : " << a[i].szemAz << endl;
             break;
         }           
     }
@@ -41,7 +41,7 @@ int main()
     {
         if (a[i].ki_be == "ki")
         {
-            cout << "Az utolsó kilépõ : "<< a[i].szemAz << endl;
+            cout << "Az utolsÃ³ kilÃ©pÃµ : "<< a[i].szemAz << endl;
             break;
         }
     }
@@ -101,7 +101,7 @@ int main()
     }
 
     cout << "4. feladat: " << endl;
-    cout << "A végén a társalgóban voltak : ";
+    cout << "A vÃ©gÃ©n a tÃ¡rsalgÃ³ban voltak : ";
     for (int i = 0; i < szamlalo; i++)
     {
         
@@ -151,7 +151,7 @@ int main()
     }
     cout << max << "    " << ora << ":" << perc<< endl;
     cout << "6. feladat: " << endl;
-    cout << "Adja meg a személy azonosítóját!: ";
+    cout << "Adja meg a szemÃ©ly azonosÃ­tÃ³jÃ¡t!: ";
     int beAz;
     cin >> beAz;
     cout << "7. feladat: " << endl;
