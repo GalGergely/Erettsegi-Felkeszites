@@ -33,7 +33,7 @@ int main()
             cout << arucikk[i][j] << endl;
         }
     }*/
-    cout << "2. feladat:  A fizetések száma : " << db << endl;
+    cout << "2. feladat:  A fizetÃ©sek szÃ¡ma : " << db << endl;
     cout << "3. feladat: " << endl;
     int cnt2=0;    
         for (int j = 0; j < 20; j++)
@@ -43,6 +43,6 @@ int main()
                 cnt2++;
             }
         }
-        cout << "Az elsõ vásárló " << cnt2 << " darab árucikket vásárolt." << endl;
+        cout << "Az elsÃµ vÃ¡sÃ¡rlÃ³ " << cnt2 << " darab Ã¡rucikket vÃ¡sÃ¡rolt." << endl;
     return 0;
 }
